@@ -25,8 +25,8 @@ main:
     @ Data for the printf call. The GNU assembler's ".asciz" directive
     @ automatically adds a NULL character termination.
 message:
-    .asciz  "Pi's are sweet and cute.\n"
+    .asciz "The raspberry pi\n"
 message2:
-    .asciz "Sweet and cute like a baby.\n"
+    .asciz "makes the sound beep boop beep boop\n"
 message3:
-    .asciz "Learning to follow.\n"
+    .asciz "trying to compute.\n"
